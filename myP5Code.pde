@@ -10,8 +10,13 @@ void draw(){
   fill(255,255,255);
   strokeWeight(1);
 
-  //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
-  
+  //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here    
+  line(170,500,170,230)
+  line(170,230,130,40) 
+  line(228,500,250,23)
+  line(250,23,131,40)
+  triangle()
+
 
   
 
