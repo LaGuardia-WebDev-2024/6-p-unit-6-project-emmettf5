@@ -11,13 +11,23 @@ void draw(){
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here    
-  line(170,500,170,230)
-  line(170,230,130,40) 
-  line(228,500,250,23)
+  fill(200,0,200);
+  
+  beginShape();
+  vertex(170,500)
+  vertex(170,230)
+  vertex(170,230)
+  vertex(130,40) 
+  vertex(228,500)
+  vertex(250,23)
+  endShape();
+  fill(345,6,123)
+ 
   line(250,23,131,40)
   line(150,33,130,0)
   line(130,0,30,9)
   line(57,55,30,9)
+ 
   line(34,138,57,55)
   line(102,174,34,138)
   line(102,174,154,138)
@@ -39,6 +49,9 @@ void draw(){
  triangle(69,65,91,81,108,65)
  line(211,165,233,179)
  line(233,179,255,165)
+ line(40,48,21,11)
+ line(79,36,82,9)
+ line(130,41,136,8)
 
 
   
