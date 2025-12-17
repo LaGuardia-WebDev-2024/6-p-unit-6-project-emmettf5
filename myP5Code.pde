@@ -21,37 +21,97 @@ void draw(){
   vertex(228,500)
   vertex(250,23)
   endShape();
-  fill(345,6,123)
+  fill(345,6,123);
  
-  line(250,23,131,40)
-  line(150,33,130,0)
-  line(130,0,30,9)
-  line(57,55,30,9)
- 
-  line(34,138,57,55)
-  line(102,174,34,138)
-  line(102,174,154,138)
-  line(32,138,120,400)
-  line(249,45,332,36)
-  line(332,36,333,79)
-  line(333,79,246,63)
-  line(245,103,329,96)
-  line(329,96,330,139)
-  line(330,139,248,115)
-  line(232,170,316,167)
-  line(264,400,316,167)
+ beginShape();
+  vertex(250,23)
+  vertex(131,40)
+  vertex(150,33)
+  vertex(130,0)
+  vertex(130,0)
+  vertex(30,9)
+  vertex(57,55)
+  vertex(30,9)
+  endShape();
+ fill(20,20,20);
+ beginShape();
+  vertex(34,138)
+  vertex(57,55)
+  vertex(102,174) 
+  vertex(34,138)
+endShape();
+fill(23,63,13);
+beginShape();
+  vertex(102,174)
+  vertex(154,138)
+  vertex(32,138)
+  vertex(120,400)
+  endShape();
+fill(109,34,84);
+beginShape();
+  vertex(249,45)
+  vertex(332,36)
+  vertex(332,36)
+  vertex(333,79)
+  endShape();
+fill(23,56,17)
+beginShape();
+  vertex(333,79)
+  vertex(246,63)
+  vertex(245,103)
+  vertex(329,96)
+  endShape();
+fill(23,67,23);
+beginShape();
+  vertex(329,96)
+  vertex(330,139)
+  vertex(330,139)
+  vertex(248,115)
+  endShape();
+fill(23,15,23);
+beginShape();
+  vertex(232,170)
+  vertex(316,167)
+  vertex(264,400)
+  vertex(316,167)
+  endShape();
+fill(20,250,7);
+ beginShape();
   ellipse(90,80,150,90)
   ellipse(232,178,150,90)
-  line(144,50,32,50)
-  line(296,154,167,154)
+endShape();
+
+fill(250,250,0);
+beginShape();
+  vertex(144,50,32,50)
+  vertex(296,154,167,154)
+endShape();
+
+
+fill(250,0,250);
   ellipse(90,80,65,39)
  ellipse(232,178,65,39) 
+ 
+ fill(500,0,500);
  triangle(69,65,91,81,108,65)
- line(211,165,233,179)
- line(233,179,255,165)
- line(40,48,21,11)
- line(79,36,82,9)
- line(130,41,136,8)
+
+fill(500,0,500)
+beginShape();
+ vertex(211,165)
+ vertex(233,179)
+ vertex(233,179)
+ vertex(255,165)
+ endShape();
+fill(700,0,200)
+ beginShape();
+ vertex(40,48)
+ vertex(21,11)
+ vertex(79,36)
+ vertex(82,9)
+ vertex(130,41)
+ vertex(136,8)
+ endShape();
+
 
 
   
